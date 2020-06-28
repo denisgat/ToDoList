@@ -11,3 +11,35 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+html, body, #root{
+  height: 100vh;
+  max-width: 100%;
+}
+
+
+#list {
+  /* min-height: 40vh; */
+
+  height: 50vh;
+  overflow: auto;
+  overflow-x: hidden;
+}
+/* need help here making input box large */
+@media (min-width: 500px){
+  form label input {
+    size: 40
+  }
+}
+
+#shadow{
+  color: white;
+  text-shadow: 10px 10px 10px black;
+}
+
+
+#root{
+  background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Faedcweb.com%2Fwp-content%2Fuploads%2F2018%2F02%2Fcork-board-background.png&f=1&nofb=1');
+  background-image: cover;
+  background-repeat: no-repeat;
+}
